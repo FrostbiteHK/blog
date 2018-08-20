@@ -65,10 +65,10 @@
         <div class="result_content">
             <ul>
                 <li>
-                    <label>官方交流网站：</label><span><a href="#">http://bbs.houdunwang.com</a></span>
+                    <label>北京邮电大学：</label><span><a href="#">https://www.bupt.edu.cn/</a></span>
                 </li>
                 <li>
-                    <label>官方交流QQ群：</label><span><a href="#"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png"></a></span>
+                    <label>个人GitHub  </label><span><a href="#">https://github.com/FrostbiteHK</a></span>
                 </li>
             </ul>
         </div>

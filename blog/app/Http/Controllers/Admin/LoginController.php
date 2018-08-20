@@ -30,7 +30,7 @@ class LoginController extends CommonController
                     return back()->with('msg','用户名或密码错误!');
                 }
 
-                session(['user' =>$user]);
+                session(['user' =>$user]); //设置session
                 return redirect('admin/index');  //跳转到后台界面
 
             }
@@ -50,7 +50,7 @@ class LoginController extends CommonController
 
 
     public function quit(){
-       session(['user'=>null]);
+       session(['user'=>null]); //清空session
        return redirect('admin/login');
     }
 

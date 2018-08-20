@@ -28,6 +28,7 @@
 					<li>
 						<input type="text" class="code" name="code"/>
 						<span><i class="fa fa-check-square-o"></i></span>
+						{{--获取验证码--}}
 						<img src="{{url('admin/code')}}" alt="" onclick="this.src='{{url('admin/code')}}?'+Math.random()">
 					</li>
 					<li>
